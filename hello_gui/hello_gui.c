@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <windows.h>
 
+#pragma comment (lib, "User32.lib")
+
+
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, 
 		    LPSTR lpCmdLine, int nCmdShow)
 {
